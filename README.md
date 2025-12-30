@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Live English ↔ Persian Digit Converter
 
-## Getting Started
+A real-time, mobile-friendly digit converter, designed for seamless English ↔ Persian number conversion.
 
-First, run the development server:
+Key Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live Conversion: Converts digits instantly as you type, supporting mixed text.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Smart Text Direction: Automatically switches between LTR and RTL based on conversion mode.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Enhanced Toggle: Smooth animated switch with clear mode indicators (EN → FA / FA → EN).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copy to Clipboard: One-click copy with visual feedback.
 
-## Learn More
+Clear Input: Quickly reset the input field.
 
-To learn more about Next.js, take a look at the following resources:
+Live Statistics: Displays character and digit count in real-time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visual Divider: Clean layout separating input and output for better readability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Robust Logic: Proper handling of English (0-9), Persian (۰-۹), and Arabic digits.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This tool is perfect for web apps, forms, and any project requiring bidirectional number conversion in Persian and English environments.
